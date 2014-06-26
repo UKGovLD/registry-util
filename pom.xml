@@ -129,7 +129,7 @@
           <transformers>
             <transformer
               implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-              <mainClass>com.epimorphics.dclib.Main</mainClass>
+              <mainClass>com.epimorphics.registry.utility.Update</mainClass>
             </transformer>
             <transformer implementation="org.apache.maven.plugins.shade.resource.IncludeResourceTransformer">
               <resource>log4j.properties</resource>
